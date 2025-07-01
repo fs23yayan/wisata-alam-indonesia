@@ -20,3 +20,7 @@ function prevSlide() {
   current = (current - 1 + images.length) % images.length;
   showSlide(current);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  showSlide(current);
+});
