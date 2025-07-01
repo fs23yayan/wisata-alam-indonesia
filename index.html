@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eksplorasi Alam Indonesia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Eksplorasi Alam Indonesia</h1>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#artikel">Artikel</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="content">
+      <article id="artikel">
+        <h2>Gunung Rinjani: Surga di Atas Awan</h2>
+        <p>Gunung Rinjani adalah destinasi populer di Nusa Tenggara Barat...</p>
+      </article>
+
+      <article>
+        <h2>Raja Ampat: Keindahan Bawah Laut</h2>
+        <p>Raja Ampat di Papua Barat dikenal sebagai salah satu spot diving terbaik di dunia...</p>
+      </article>
+    </div>
+
+    <aside>
+      <img src="assets/images/profil.jpg" alt="Profil Penulis" />
+      <h3>Tentang Penulis</h3>
+      <p>Saya adalah penjelajah alam yang telah mengunjungi 25 provinsi di Indonesia...</p>
+    </aside>
+  </main>
+
+  <section id="galeri">
+    <h2>Galeri Foto</h2>
+    <div class="slider">
+      <button onclick="prevSlide()">&#10094;</button>
+      <img id="slider-img" src="assets/images/galeri1.jpg" alt="Foto Wisata" />
+      <button onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>
+
+  <footer id="kontak">
+    <p>&copy; 2025 Eksplorasi Alam Indonesia. Dibuat dengan ❤️ oleh Petualang Digital.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
