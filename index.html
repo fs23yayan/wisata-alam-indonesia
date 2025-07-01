@@ -4,14 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eksplorasi Alam Indonesia</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Panduan eksplorasi alam Indonesia, termasuk Gunung Rinjani, Raja Ampat, dan galeri foto keindahan alam." /> <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header>
     <h1>Eksplorasi Alam Indonesia</h1>
-    <nav>
-      <ul>
+    <nav aria-label="Navigasi Utama"> <ul>
         <li><a href="#beranda">Beranda</a></li>
         <li><a href="#artikel">Artikel</a></li>
         <li><a href="#galeri">Galeri</a></li>
@@ -34,7 +33,8 @@
     </div>
 
     <aside>
-      <img src="assets/images/profil.jpg" alt="Profil Penulis" />
+      <figure> <img src="assets/images/profil.jpg" alt="Profil Penulis" />
+        <figcaption>Penjelajah alam dan penulis artikel ini.</figcaption> </figure>
       <h3>Tentang Penulis</h3>
       <p>Saya adalah penjelajah alam yang telah mengunjungi 25 provinsi di Indonesia...</p>
     </aside>
@@ -43,7 +43,8 @@
       <h2>Galeri Foto</h2>
       <div class="slider">
         <button onclick="prevSlide()">&#10094;</button>
-        <img id="slider-img" src="assets/images/galeri1.jpg" alt="Foto Wisata" />
+        <figure> <img id="slider-img" src="assets/images/galeri1.jpg" alt="Foto Wisata Alam Indonesia" />
+          <figcaption id="slider-caption">Pemandangan indah dari galeri eksplorasi alam.</figcaption> </figure>
         <button onclick="nextSlide()">&#10095;</button>
       </div>
     </section>
